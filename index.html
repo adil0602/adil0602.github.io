@@ -1,42 +1,117 @@
 
+<!ctrl f-search word>
+
 <html>
 <head>
 <title>adil file 0602</title>
-</head>
 <body text="sky blue"> 
 <style>
+
      body{
       background-image: url("bg.jpg");
       background-repeat: no-repeat, repeat;
-background-size:cover;
-
+      background-size:cover;
      }
-   </style>
-<center><h1 style="background-color:powderblue;">Welcome</h1></center>
-<h2><font color="red">Md Adil Anwar</h2></font>
-     <button type="button" onClick="alert('hello Mr adil sir')">Click Me!</button><br>
-<style>
+a:link {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+
 img {
   border-radius: 50%;
 }
-</style>
-<img src="mn.jpg" alt="a boy stand with wear mask" height=350 width=250>
-     <hr style="height:5px;border-width:0;color:grey;background-color:gray">
-<center><h3 style="font-size:160%;"><font color="red">About Mr Adil Anwar</h3></font></center>
-<p><center>Hello my name is md adil anwar :</center><br>
-<center>I am from Patna,Bihar,Indian:</center><br>
-<center>i am interested in taking knowledge of computer scinece:</center><br>
-<center>i am also prepare for gov job beacuse of my family member:</center><br>
-     <hr style="height:5px;border-width:0;color:gray;background-color:gray">
-<center><h4 style="font-size:160%;"><font color="Green">About Study</h4></font></center>
-<center>I am Done Schooling from Park Mount Public School:</center><br>
-<center>and high school also be done by a same school:</center><br>
-<center>i am studing BCA (Bachalor of computer Aplication) from Mualana Mazhrul Haque university:</center><br>
-<center>MY graaduation year is 2020/2023: </center><br>
-     <hr style="height:5px;border-width:0;color:gray;background-color:gray">
-<center><h5 style="font-size:160%;"><font color="Yellow">About My knowledge</h5></font></center>
-<center>i am studing Currently JAVA:</center><br>
+.header {
+  padding: 10px 16px;
+  background: #555;
+  color: #f1f1f1;
+}
 
+
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 102px;
+}
+</style>
+<div class="header" id="myHeader">
+<center><h1>As-salamu alaykum</h1></center>
+</div>
+<body>
+</head>
+
+ <button type="button" onClick="alert('Welocme To My Resume')">Click Me!</button><br>
+<img src="mn.jpg" alt="a boy stand with wear mask" height=350 width=250>
+<h2><font color="red">Md Adil Anwar</h2></font>
+
+<center><h3 style="font-size:160%;"><font color="red">About Mr Adil Anwar</h3></font></center>
+<center><p style="font-size:120%;">Hello my Name is Md Adil Anwar :<br>
+My D.O.B is 06Feb2003:<br>
+I am from Patna,Bihar,Indian:<br>
+My Hobby is playing Cricket or Badminton and also intersted in all game:<br>  
+i am interested in taking knowledge of computer scinece:<br>
+i am also prepare for gov job beacuse of my family member:</center><br></p></font>
+     <hr style="height:5px;border-width:0;color:gray;background-color:gray">
+<center><h4 style="font-size:160%;"><font color="Pink">About Study</h4></font></center>
+<center><p style="font-size:120%;">I did my Schooling from Park Mount Public School:<br>
+in 2018:<br>
+and high school also be done by a same school:<br>
+in 2018-2020:<br>
+i am studying BCA (Bachalor of computer Application) from Mualana Mazhrul Haque university:<br>
+MY graaduation year is 2020-2023:<br>
+i am studing Currently JAVA:<br>
+i am also taking a knowledge about Ms Excel:<br></center></p></font>
+     <hr style="height:5px;border-width:0;color:gray;background-color:gray">
+<center><h5 style="font-size:160%;"><font color="Yellow">About My Family</h5></font>
+<center><p style="font-size:120%;">My father Name is:Md Khurshid Ahmad<br>
+He is retirement from police gov job at 2018:<br>
+My Mother Name is:Rehana Khatoon<br>
+She is only My Mohter ammi jaan:<br>
+I have six brothers including me and i am younger to all:<br>
+And only one Special Sister Rashda Perveen:<br></center></font>
+ <hr style="height:5px;border-width:0;color:gray;background-color:gray">
+<center><b><p style="font-size:160%;"><font color="Green">Contact Me-6209695...</p></b></font>
+<a href="https://mail.google.com/mail/u/0/#inbox" target="_blank">Visit Gmail.com!</a><br>
+<a href="https://www.instagram.com/" target="_blank">Visit Instagram.com!</a><br>
+<a href="https://www.facebook.com/" target="_blank">Visit Facebook.com!</a>
+      <p style="font-size:48px">
+&#128516; &#128525; &#128151;&#128508;
+</p>
+<script>
+window.onscroll = function() {myFunction()};
+
+var header = document.getElementById("myHeader");
+var sticky = header.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}
+</script>
 
 </body>
 </html>
